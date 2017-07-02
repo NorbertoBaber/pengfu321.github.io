@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        window.onload = function () {
+            var oul = document.getElementById('ul1');
+            var oli = document.getElementsByTagName('li');
+            var ohk = oli[oli.length - 1];
+            var i = 0;
+            for (i; i < oli.length - 1; i++) {
+                oli[i].onmouseover = function () {
+                    startMove(ohk, this.offsetLeft)
+                };
+            }
+        }
+        var iSpeed = 0;
+        var left = 0;
+        function startMove(obj, iTarget) {
+            clearInterval(obj.timer);
+
+            obj.timer = setInterval(function () {
+                iSpeed += (iTarget - obj.offsetLeft) / 5;
+                iSpeed *= 0.7;
+                left += iSpeed;
+                if (Math.abs(iSpeed) < 1 && Math.abs(left - iTarget) < 1) {
+                    clearInterval(obj.timer);
+                } else {
+                    obj.style.left = left + 'px';
+                }
+
+            },30)
+        }
+    </script>
+</head>
+<body>
+<ul id="ul1">
+    <li>首页</li>
+    <li>商店</li>
+    <li>购物</li>
+    <li>客服</li>
+    <li id="hk"></li>
+</ul>
+</body>
+</html>
