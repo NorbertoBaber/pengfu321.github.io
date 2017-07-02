@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background-color: black;
+            font-size: 12px;
+        }
+
+        .iphone {
+            width: 340px;
+            height: 540px;
+            background-color: white;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: -270px 0 0 -170px;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/H5componentBase.css">
+    <script src="../js/H5componentBase.js"></script>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<div class="iphone"></div>
+<script>
+    //数据保存在json中
+    var cfg = {
+        'type': 'base',
+        'bg': '../img/p1_people.png',
+        'width': 514,
+        'height': 306,
+        css: {
+            left: 50,
+            top: 50,
+            opacity: 0
+        },
+        animateIn: {top: 50, opacity: 1},
+        animateOut: {top: 150, opacity: 0},
+        center: true
+    }
+    var h5 = new H5ComponentBase(name, cfg);
+    $('.iphone').append(h5);
+
+    var leave = true;
+    $('body').click(function () {
+        leave = !leave;
+        $('.h5_component').trigger(leave ? 'onLeave' : 'onLoad')
+    })
+</script>
+</body>
+</html>
+
+

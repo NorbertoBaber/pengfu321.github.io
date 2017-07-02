@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-color:black;
+            font-size:12px;
+        }
+        .iphone{
+            width:340px;
+            height:540px;
+            background-color:white;
+            position:absolute;
+            left:50%;
+            top:50%;
+            margin:-270px 0 0 -170px;
+        }
+    </style>
+
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/H5componentBase.css">
+    <script src="../js/H5componentBase.js"></script>
+
+    <link rel="stylesheet" href="../css/H5componentRadar.css">
+    <script src="../js/H5componentRadar.js"></script>
+
+</head>
+<body>
+<div class="iphone"></div>
+<script>
+    var cfg={
+        'type':'radar',
+        'width':400,
+        'height':400,
+        data:[
+            ['js', .4 ,'green'],
+            ['CSS3', .1 ],
+            ['HTML5', .2 ],
+            ['PHP',  .05],
+            ['jQuery', .35 ]
+        ],
+        css:{
+            top:100,
+            opacity: 0
+        },
+
+        animateIn:{
+            top:200,
+            opacity: 1
+        },
+        animateOut:{
+            top:100,
+            opacity: 0
+        },
+        center:true
+    }
+    var h5=new H5ComponentRadar('myBarCompent', cfg);
+    $('.iphone').append(h5);
+
+    var leave = true;
+    $('body').click(function()
+    {
+        leave = !leave;
+        $('.h5_component').trigger( leave ? 'onLeave' : 'onLoad')
+    })
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
