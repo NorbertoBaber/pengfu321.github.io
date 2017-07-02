@@ -1,0 +1,42 @@
+.left{background-color: darkcyan;height: 700px;}
+#id1 li{margin-bottom: 10px;}
+#id2 li{margin-bottom: 10px;}
+#idimg{width:80%;margin: 5px auto}
+#p1{width: 90%;height:7px;background-color: red}
+#p2{width: 80%;height: 7px;background-color: red}
+#p3{width: 50%;height: 7px;background-color: red}
+#p4{width: 50%;height: 7px;background-color: red}
+#xc1,#xc2{margin-left: 18px;}
+
+#h6, #h7,#h8{display: inline;}
+
+
+body, div, h1, h2, h3, h4, h5, h5, dl, dt, dd { margin: 0; padding: 0;}
+ul, ol { list-style-type: none;}
+
+body { font: 14px "Microsoft Yahei",Arial,Helvetica,sans-serif; color: #515151;}
+a { color: #515151; text-decoration: none;}
+a:hover { color: rgb(236, 40, 31);}
+
+.clearfix:after { content: ""; display: table; clear: both;}
+
+.ml-nav { position: fixed; top: 0; left: 0; z-index: 10; width: 100%; padding: 15px 0; background-color: rgba(0, 0, 0, 0.47);}
+.ml-logo { position: absolute; width: 126px; height: 45px; margin: -8px; font-size: 0; background-image: url(logo.png); background-size:100% }
+.ml-link { float: right; margin: 8px 150px 0 0; font-size: 0;}
+.ml-link a { display: inline-block; margin: 0 15px; font-size: 14px;}
+
+.center-wrap { position: relative; z-index: 1; width: 1040px; height: 100%; margin: 0 auto;}
+.desc { position: relative; z-index: 1;}
+
+.section { overflow: hidden;}
+.section h1 { margin-bottom: 100px; line-height: 1.4; font-size: 40px; font-weight: 400;}
+.section p { line-height: 25px;}
+
+.banner { background: url(bg5.jpg) 100% 0 no-repeat;background-size: 100%}
+.banner-desc { position: absolute; width: 386px; margin: 0 auto; color: #060601; bottom: 95px; left: 50%; margin-left: -193px;}
+.banner-desc h1 { text-align: center;}
+
+#detail{
+    margin: 50px;
+}
+
