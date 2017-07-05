@@ -62,9 +62,9 @@ a:hover { color: rgb(236, 40, 31);}
 
 
 #page-1 .ul1 {
-  margin-left: 20%;
-    /*position: relative;*/
-    /*margin-bottom: 100px;*/
+    width: 80%;
+    height: 100px;
+  margin-left:16%;
     margin-top:450px;
 }
 #page-1 .ul1 li{
