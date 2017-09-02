@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0497ec27-3bdb-408d-8fce-7a025a81e4eb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/111.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/A5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/A6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/A7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/A8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/A9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bg5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/inline.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/inline.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/main.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/main.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/polyfills.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/polyfills.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/scripts.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/scripts.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/styles.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/styles.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ducation/vendor.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dushu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/graduates.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/it.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jq.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.fullPage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery.fullPage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodejs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/product.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timg.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/touxiang.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yd.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1/index.html" afterPath="$PROJECT_DIR$/1/index.html" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2678866">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.19966722">
+              <caret line="173" column="52" selection-start-line="173" selection-start-column="52" selection-end-line="173" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -93,6 +50,7 @@
         <option value="$PROJECT_DIR$/indexxx/111.htnl.html" />
         <option value="$PROJECT_DIR$/ducation/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/1/index.html" />
       </list>
     </option>
   </component>
@@ -102,7 +60,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
+    <option name="x" value="-285" />
     <option name="y" value="23" />
     <option name="width" value="1241" />
     <option name="height" value="745" />
@@ -291,15 +249,15 @@
       <workItem from="1504341574295" duration="576000" />
       <workItem from="1504354153528" duration="852000" />
       <workItem from="1504360098318" duration="418000" />
-      <workItem from="1504367869340" duration="2947000" />
+      <workItem from="1504367869340" duration="3063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4997000" />
+    <option name="totallyTimeSpent" value="5113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="23" width="1241" height="745" extended-state="1" />
+    <frame x="-285" y="23" width="1241" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -361,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2678866">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.19966722">
+          <caret line="173" column="52" selection-start-line="173" selection-start-column="52" selection-end-line="173" selection-end-column="52" />
           <folding />
         </state>
       </provider>
