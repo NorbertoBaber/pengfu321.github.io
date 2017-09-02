@@ -118,12 +118,11 @@ a:hover { color: rgb(236, 40, 31);}
 }
 
 #page-2 .box1{
-    width:40%;
-    height:300px;
+    width:30%;
+    height:250px;
     color: #845043;
     background-color: white ;
     border-radius:10px;
-    /*position: absolute;*/
     margin-left:7% ;
 }
 #page-2 .box1 h3{
@@ -173,9 +172,3 @@ a:hover { color: rgb(236, 40, 31);}
 #detail{
     margin: 50px;
 }
-
-/*#page-4 h4{*/
-    /*float: left;*/
-    /*margin-left: 20%;*/
-    /*margin-bottom: 20%;*/
-/*}*/
