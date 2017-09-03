@@ -27,8 +27,8 @@
       <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.625">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file leaf-file-name="111.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1/111.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39800996">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.29850745">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -73,7 +73,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
+    <option name="x" value="79" />
     <option name="y" value="23" />
     <option name="width" value="1134" />
     <option name="height" value="745" />
@@ -255,15 +255,15 @@
       <workItem from="1504413625013" duration="5990000" />
       <workItem from="1504431486987" duration="17000" />
       <workItem from="1504431924326" duration="2048000" />
-      <workItem from="1504435521688" duration="1460000" />
+      <workItem from="1504435521688" duration="2112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20258000" />
+    <option name="totallyTimeSpent" value="20910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="23" width="1134" height="745" extended-state="0" />
+    <frame x="79" y="23" width="1134" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -388,16 +388,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.625">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1/111.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39800996">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.29850745">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding />
         </state>
       </provider>
