@@ -39,11 +39,13 @@ h3{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
+    font-size: 2.5em;
 }
 
 li{
     margin-top: 10px;
     margin-left: 10%;
+    font-size: 1.7em;
 }
 
 .a1{
@@ -57,6 +59,7 @@ li{
     background-color: #707070;
     border-radius: 20px;
     color: white;
+    font-size: 1.7em;
 }
 
 .a1:hover{
