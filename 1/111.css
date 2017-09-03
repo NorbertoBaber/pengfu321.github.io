@@ -2,173 +2,64 @@
 body, div, h1, h2, h3, h4, h5, h5, dl, dt, dd { margin: 0; padding: 0;}
 ul, ol { list-style-type: none;}
 
-body { font: 14px "Microsoft Yahei",Arial,Helvetica,sans-serif; color: #060601;}
-a { color: white; text-decoration: none;}
-a:hover { color: rgb(236, 40, 31);}
-
-
-#h6, #h7,#h8{display: inline;}
-
-/*page0*/
-
-/*page1*/
-#page-1{
-
-    color: #66382e;
-    background-color: rgb(126, 71, 58);
-}
-#page-1 h3{
-    color: white;
-}
-#page-1 .box{
-    margin-top:5%;
-}
-#page-1 h3{
-    width:100%;
-    margin-left: 48%;
-    margin-bottom: 2%;
+body { font: 14px "Microsoft Yahei",Arial,Helvetica,sans-serif; color: #060601;
+background-color: #38627b
 }
 
-#page-1 .box1{
-    width:80%;
-    height:400px;
-    color: #845043;
-    background-color: white ;
-    border-radius:10px;
+a:hover { text-decoration: none}
+
+h1{
+    font-size: 70px;
+    top:50px;
     position: absolute;
-    margin-left:10% ;
-}
-
-#page-1 .cont1{
-    padding: 20px 30px;
-    display: none;
-   position: relative;
-
-}
-
-#page-1 .cont1 h3{
-    width:100%;
-    color: #6c4035;
-    margin-left: 0;
-    margin-bottom: 0;
-}
-
-#page-1 .cont1-1{
-    margin-left: 40%;
-}
-#page-1 .cont1-2{
-    margin-top: 8%;
-}
-
-
-#page-1 .ul1 {
-    width: 80%;
-    height: 100px;
-  margin-left:16%;
-    margin-top:450px;
-}
-#page-1 .ul1 li{
-    float: left;
-    font-size:20px ;
-    margin-top:30px;
-    margin-left: 5%;
-}
-#page-1 .ul1 li a {
-    display: block;
-    width:150px;
-    height: 30px;
-    background-color: #4c2e27;
-    color: rgba(153, 95, 84, 0.97);
-    border: 1px solid #0d020a;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-}
-#page-1 .ul1 li a:hover {
-    color:white;
-    box-shadow:3px 5px 3px #0d020a;
-}
-
-
-#id1 li{margin-bottom: 10px;}
-#xc1,#xc2{margin-left: 18px;}
-
-#page-1 .right{
-    margin-top: 100px;
-    background-color: dimgrey;
-}
-
-/*page2*/
-
-#page-2{
-    color:white;
-    background-color: #3e7089;
-}
-
-#page-2 h3{
+    left: 40%;
     color: white;
 }
-#page-2 .box{
-    margin-top:5%;
+.div1{
+    position: relative;
+    height: 1000px;
+
 }
-#page-2 h3{
-    width:100%;
-    margin-left: 48%;
-    margin-bottom: 2%;
+.box1{
+    position: absolute;
+    width: 100%;
+    top:20%;
+    height: 400px;
+    left: 3%;
 }
 
-#page-2 .box1{
-    width:30%;
-    height:250px;
-    color: #845043;
-    background-color: white ;
-    border-radius:10px;
-    margin-left:7% ;
+.box{
+    height: 300px;
 }
-#page-2 .box1 h3{
-    color: #6c4035;
-    margin: 40px auto;
+.box2{
+    margin-bottom: 60px;
 }
 
-#page-2 .box1 li {
+h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+li{
     margin-top: 10px;
+    margin-left: 10%;
 }
-#page-2 .box1 a{
-    display: block;
+
+.a1{
+    position: absolute;
+    top:270px;
+    right: 30px;
     width: 150px;
     height: 40px;
-    background-color: #8a6d3b;
-    border-radius: 5px;
     text-align: center;
     line-height: 40px;
-    text-decoration: none;
-
-    margin-top: 30px;
-}
-#page-2 .box1 a:hover{
-    color: #000000;
-    background-color: #767263;
-    box-shadow: 3px 5px 2px #000000;
-
+    background-color: #707070;
+    border-radius: 20px;
+    color: white;
 }
 
-.ml-nav { position: fixed; top: 0; left: 0; z-index: 10; width: 100%; padding: 15px 0; background-color: rgba(0, 0, 0, 0.47);}
-.ml-logo { position: absolute; width: 126px; height: 45px; margin: -8px; font-size: 0; background-image: url(logo.png); background-size:100% }
-.ml-link { float: right; margin: 8px 150px 0 0; font-size: 0;}
-.ml-link a { display: inline-block; margin: 0 15px; font-size: 14px;}
-
-.center-wrap { position: relative; z-index: 1; width: 1040px; height: 100%; margin: 0 auto;}
-.desc { position: relative; z-index: 1;}
-
-.section { overflow: hidden;}
-.section h1 { margin-bottom: 50%; line-height: 1.4; font-size: 40px; font-weight: 400;}
-.section p { line-height: 25px;}
-
-.banner { background-color: rgba(0, 0, 0, 0.18)
-}
-.banner-desc { position: absolute; width: 386px; margin: 0 auto; color: #060601; bottom: 95px; left: 50%; margin-left: -193px;}
-.banner-desc h1 { text-align: center;}
-
-#detail{
-    margin: 50px;
+.a1:hover{
+    background-color: #060601;
+    color: #38627b;
 }
