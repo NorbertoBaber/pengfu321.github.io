@@ -1,54 +1,79 @@
 /*通用样式*/
-body, div, h1, h2, h3, h4, h5, h5, dl, dt, dd { margin: 0; padding: 0;}
-ul, ol { list-style-type: none;}
 
-body { font: 14px "Microsoft Yahei",Arial,Helvetica,sans-serif; color: #060601;
-background-color: #38627b
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
 }
 
-a:hover { text-decoration: none}
+ul,
+ol {
+    list-style-type: none;
+}
 
-h1{
+body {
+    font: 14px "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    color: #060601;
+    background-color: #38627b
+}
+
+a:hover {
+    text-decoration: none
+}
+
+h1 {
     font-size: 70px;
     text-align: center;
     color: white;
-   margin-top:50px;
+    margin-top: 50px;
 }
-.div1{
+
+.div1 {
     position: relative;
     height: 1000px;
 }
-.box1{
+
+.box1 {
     position: absolute;
     width: 100%;
-    top:20%;
+    top: 20%;
     height: 400px;
     left: 3%;
 }
 
-.box{
+.box {
     height: 300px;
 }
-.box2{
+
+.box2 {
     margin-bottom: 60px;
 }
 
-h3{
+h3 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 2.5em;
 }
 
-li{
+li {
     margin-top: 10px;
     margin-left: 10%;
     font-size: 1.7em;
 }
 
-.a1{
+.a1 {
     position: absolute;
-    top:270px;
+    top: 270px;
     right: 30px;
     width: 150px;
     height: 40px;
@@ -60,7 +85,7 @@ li{
     font-size: 1.7em;
 }
 
-.a1:hover{
+.a1:hover {
     background-color: #060601;
     color: #38627b;
 }
